@@ -11,7 +11,7 @@ int main(){
 		if(a[i]%2==0){
 			par[i]=a[i];
 		}
-		if(a[i]%2=!0){
+		if(a[i]%2!=0){
 			impar[i]=a[i];
 		}
 	}
