@@ -9,12 +9,10 @@ int main(){
 	for(i=1;i<=n;i++){
 		cout<<"Ingrese el elemento: ";
 		cin>>a[i];
-		if(a[i]=!0){
-			A=A+a[i];
-		}
-		else{
+		A=A+a[i];
+		if(a[i]==0){
 			C=C+1;
-	    }
+		}
     }
 	Pc=C*100/n;
 	cout<<"La sumatoria de todos los elementos es: "<<A<<endl;
